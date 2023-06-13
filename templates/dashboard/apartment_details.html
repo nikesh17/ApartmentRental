@@ -1,0 +1,64 @@
+{% extends 'base_site.html' %}
+{% load static %}
+
+{% block title %}Apartment Details{% endblock %}
+
+{% block content %}
+<section class="px-4 py-8 lg:px-8">
+    <div class="max-w-screen-xl mx-auto">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-64 sm:h-80 lg:h-full">
+                <img src="{{ apartment.image.url }}" alt="Apartment Image" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex flex-col justify-between lg:py-16">
+                <div>
+                    <h2 class="text-3xl font-bold sm:text-4xl">APARTMENT {{ apartment.apartment_id }}</h2>
+                    <div class="flex items-center mt-4">
+                        <span class="text-lg font-semibold">Rs. {{ apartment.price }}</span>
+                    </div>
+                    <p class="text-gray-600 mt-4 font-semibold font-bold">Location: {{ apartment.location }}</p>
+
+                </div>
+
+                <div>
+                    <p class="text-2xl text-gray-500 mt-4">{{ apartment.description }}</p>
+                </div>
+                  <div class="flex justify-center mt-8">
+                      <a href="{% url 'dashboard:dashboard-book' apartment_id=apartment.id username=user.username %}">
+                          <button type="button" class="book-now-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                            Book now
+                          </button> 
+                      </a>
+
+                      <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartment.id username=user.username %}">
+                          <button type="button" class="rent-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                            Send Rent Request
+                          </button> 
+                      </a>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var bookButtons = document.querySelectorAll(".book-now-btn");
+      var rentButtons = document.querySelectorAll(".rent-btn");
+  
+      bookButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+          window.alert("Booked");
+        });
+      });
+  
+      rentButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+          window.alert("Rent Request Sent");
+        });
+      });
+    });
+  </script>
+{% endblock %}

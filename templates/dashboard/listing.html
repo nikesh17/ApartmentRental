@@ -1,0 +1,127 @@
+{% extends 'base_site.html' %}
+{% load static %}
+
+
+{% block title %}
+Form
+{% endblock  %}
+
+{% block content %}
+
+
+{% comment %} {% for apartments in apartment %}
+<section>
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      
+      <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+          <a href="{% url 'dashboard:apartment-details' apartment_id=apartments.id %}">
+              <img src="{{ apartments.image.url }}">
+          </a>
+      </div>
+      
+  
+        <div class="lg:py-16">
+          <div class="max-w-3xl">
+            <h2 class="text-3xl font-bold sm:text-4xl">
+              APARTMENT {{apartments.apartment_id}}
+            </h2>
+          </div>
+          <article class="space-y-4 text-gray-600">
+            <div class="bg-white p-4 sm:p-6">
+              
+              <div class="flex">
+                  <h3 class="text-2xl sm:text-2xl text-gray-500">
+                    Rs. {{apartments.price}}
+                  </h3>
+              </div>
+
+              <div class="flex">
+                  <h3 class="text-2xl font-bold sm:text-3xl">
+                    {{apartments.location}}
+                  </h3>
+                
+                </div>    
+                <p class= "mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  <a href="{% url 'dashboard:dashboard-book' apartment_id=apartments.id username=user.username %}">
+                      <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                        Book now
+                      </button> 
+                  </a>
+
+                  <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartments.id username=user.username %}">
+                      <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                        Rent/Buy
+                      </button> 
+                  </a>
+                </p>
+              </div>
+          </article>
+        </div>
+      </div>
+    </div> 
+</section>
+{% endfor %} {% endcomment %}
+
+
+
+<section class="bg-gray-100">
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          {% for apartments in apartment %}
+          
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <a href="{% url 'dashboard:apartment-details' apartment_id=apartments.id %}">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Apartment {{ apartments.apartment_id }}</h3>
+              <img src="{{ apartments.image.url }}" alt="Apartment Image" class="h-48 w-full object-cover mb-4 rounded-lg">
+            </a>
+              <p class="text-gray-600 mb-4 font-semibold">Location: {{ apartments.location }}</p>
+
+              <p class="text-gray-600 mb-4">{{ apartments.description }}</p>
+              <div class="flex items-center justify-between">
+                <span class="text-lg font-semibold">Rs. {{ apartments.price }}</span>
+                <div>
+                    <a href="{% url 'dashboard:dashboard-book' apartment_id=apartments.id username=user.username %}">
+                      <button class="book-now-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                        Book now
+                      </button> 
+                  </a>
+
+                  <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartments.id username=user.username %}">
+                      <button type="button" class="rent-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                        Send Rent Request
+                      </button> 
+                  </a>
+                </div>
+            </div>
+          </div>
+          {% endfor %}
+      </div>
+  </div>
+</section>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var bookButtons = document.querySelectorAll(".book-now-btn");
+    var rentButtons = document.querySelectorAll(".rent-btn");
+
+    bookButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        window.alert("Booked");
+      });
+    });
+
+    rentButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        window.alert("Rent Request Sent");
+      });
+    });
+  });
+</script>
+
+
+
+{% endblock %}
+
+
