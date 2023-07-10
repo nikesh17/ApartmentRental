@@ -84,10 +84,11 @@ def UserApartmentRequestView(request, uname, aid):
         # Remove the entry from the Book model
         book = Book.objects.filter(apartment_id=apartment)
         book.delete()
-
-        # Delete the accepted request from the database
-        request_to_delete = get_object_or_404(Rent, username=user, apartment_id=apartment)
-        request_to_delete.delete()
+        # Remove the entry from the Rent model
+        rents = Rent.objects.filter(apartment_id=apartment)
+        rents.delete()
+        
+        
         # Redirect to a success page or perform any other desired actions
         return redirect('tenant:tenant-rent')
 

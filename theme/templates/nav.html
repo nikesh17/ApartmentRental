@@ -3,16 +3,17 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>My Django-Tailwind App</title>
+    <title>NavBar</title>
     {% tailwind_css %}
 </head>
+
 <body>
     <!-- your HTML content here -->
     <header aria-label="Site Header" class="bg-white">
+      
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
-          
-          <div class="max-w-screen-xl mx-auto flex-1 md:flex md:items-center md:gap-12">
+        <div class="flex h-16 items-center justify- gap-5 space-between">
+          <div class="max-w-screen-xl mx-auto flex-1 md:flex md:items-center md:gap-12 flex space-between">
             <a href="/">
               <span class="sr-only">Home</span>
               <img src="{% static 'images/home.jpg' %}" alt="Logo" class="h-8 w-auto">
@@ -20,52 +21,67 @@
           </div>
     
           <div class="md:flex md:items-center md:gap-12">
-            {% comment %} <nav aria-label="Site Nav" class="hidden md:block">
-              <ul class="flex items-center gap-6 text-sm">
-                <li>
-                  <a class="text-gray-500 transition hover:text-gray-500/75" href="/" >
-                    About
-                  </a>
-                </li>
-    
-                <li>
-                  <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-                    Careers
-                  </a>
-                </li>
-    
-                <li>
-                  <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-                    History
-                  </a>
-                </li>
-    
-                <li>
-                  <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-                    Services
-                  </a>
-                </li>
-    
-                <li>
-                  <a class="text-gray-500 transition hover:text-gray-500/75" href="/" >
-                    Projects
-                  </a>
-                </li>
-                
-              </ul>
-            </nav> {% endcomment %}
-
+            
+            
+           
             {% if request.user.is_authenticated %}
             
             <div class="flex items-center gap-4">
               <a class="text-gray-500 transition hover:text-gray-500/75" href="{%url 'user:user-profile'%}" >
                 {{user}}
               </a>
+              {% comment %} <div class="relative inline-block">
+                <button
+                    id="dropdown-btn"
+                    class="h-full p-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700"
+                  >
+                    <span class="sr-only">Menu</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-8"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                
+                  <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-700 py-2 mt-2 w-40 rounded-lg shadow-lg">
+                    <li>
+                      <a href="{% url 'user:user-profile'%}" class="block px-4 py-2 hover:bg-gray-100">View Profile</a>
+                    </li>
+                   
+                    {% if apartment %}
+                    <li>
+                      <a href="{% url 'user:user-apartment-detail' apartment_id=apartment.id %}" class="block px-4 py-2 hover:bg-gray-100">View My Apartment</a>
+                    </li>
+                     
+                    <li>
+                      <a href="{% url 'user:create-checkout-session' apartment_id=apartment.id %}" class="block px-4 py-2 hover:bg-gray-100">Make Payment {{ price_in_npr }}</a>
+                    </li> 
+                    
+                    <li>
+                      <a href="{% url 'dashboard:dashboard-complaint' %}" class="block px-4 py-2 hover:bg-gray-100">File a Complaint</a>
+                    </li>
+                    {% endif %}
+                    
+                  </ul>
+  
+              </div> {% endcomment %}
               <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-indigo-600" href="{%url 'user:user-logout'%}">
                 Log Out
               </a>
-            </div>
-            
+              
+              <script>
+                document.getElementById('dropdown-btn').addEventListener('click', function() {
+                  var menu = document.getElementById('dropdown-menu');
+                  menu.classList.toggle('hidden');
+                });
+              </script>
             {% endif %}
 
 
@@ -88,3 +104,4 @@
     
 </body>
 </html>
+

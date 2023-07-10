@@ -4,6 +4,6 @@ from .models import Apartment
 
 
 class ApartmentAdmin(admin.ModelAdmin):
-        list_display=('apartment_id','location','price','description','image','is_available')
+        list_display=('apartment_id','location','price','description','image','bhk','floor','parking','wifi','swimming_pool','ac')
         
 admin.site.register(Apartment,ApartmentAdmin)

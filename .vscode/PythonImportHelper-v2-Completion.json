@@ -257,6 +257,38 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -417,7 +449,111 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -577,6 +713,126 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -634,6 +890,22 @@
     },
     {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -658,35 +930,11 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
         "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -719,6 +967,38 @@
         "description": "django",
         "isExtraImport": true,
         "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -739,6 +1019,14 @@
     },
     {
         "label": "User",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
         "importPath": "user.models",
         "description": "user.models",
         "isExtraImport": true,
@@ -747,6 +1035,22 @@
     },
     {
         "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPreferences",
         "importPath": "tenant.models",
         "description": "tenant.models",
         "isExtraImport": true,
@@ -803,6 +1107,14 @@
     },
     {
         "label": "removeBooked",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "apartment_details",
         "importPath": "dashboard.views",
         "description": "dashboard.views",
         "isExtraImport": true,
@@ -874,6 +1186,14 @@
         "documentation": {}
     },
     {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "django.views.generic",
         "kind": 6,
         "isExtraImport": true,
@@ -892,22 +1212,6 @@
     },
     {
         "label": "ListView",
-        "importPath": "django.views.generic",
-        "description": "django.views.generic",
-        "isExtraImport": true,
-        "detail": "django.views.generic",
-        "documentation": {}
-    },
-    {
-        "label": "DetailView",
-        "importPath": "django.views.generic",
-        "description": "django.views.generic",
-        "isExtraImport": true,
-        "detail": "django.views.generic",
-        "documentation": {}
-    },
-    {
-        "label": "DeleteView",
         "importPath": "django.views.generic",
         "description": "django.views.generic",
         "isExtraImport": true,
@@ -955,19 +1259,27 @@
         "documentation": {}
     },
     {
-        "label": "ComplaintListView",
-        "importPath": "tenant.views",
-        "description": "tenant.views",
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "tenant.views",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "ComplaintListView",
-        "importPath": "tenant.views",
-        "description": "tenant.views",
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
         "isExtraImport": true,
-        "detail": "tenant.views",
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "CountVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
         "documentation": {}
     },
     {
@@ -979,28 +1291,11 @@
         "documentation": {}
     },
     {
-        "label": "django.contrib.auth.models",
-        "kind": 6,
+        "label": "ComplaintListView",
+        "importPath": "tenant.views",
+        "description": "tenant.views",
         "isExtraImport": true,
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "tenant.views",
         "documentation": {}
     },
     {
@@ -1052,6 +1347,22 @@
         "documentation": {}
     },
     {
+        "label": "Book",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rent",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
         "label": "LoginRequiredMixin",
         "importPath": "django.contrib.auth.mixins",
         "description": "django.contrib.auth.mixins",
@@ -1073,6 +1384,31 @@
         "description": "django.views.generic.edit",
         "isExtraImport": true,
         "detail": "django.views.generic.edit",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -1190,6 +1526,22 @@
         "documentation": {}
     },
     {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
         "label": "LoginView",
         "importPath": "django.contrib.auth.views",
         "description": "django.contrib.auth.views",
@@ -1203,6 +1555,47 @@
         "description": "django.contrib.auth.views",
         "isExtraImport": true,
         "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "stripe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stripe",
+        "description": "stripe",
+        "detail": "stripe",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic.base",
+        "description": "django.views.generic.base",
+        "isExtraImport": true,
+        "detail": "django.views.generic.base",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
         "documentation": {}
     },
     {
@@ -1521,6 +1914,78 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0010_alter_support_apartment_id",
+        "description": "dashboard.migrations.0010_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0009_alter_userapartment_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0010_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0011_alter_support_apartment_id",
+        "description": "dashboard.migrations.0011_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0010_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0011_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0012_alter_support_apartment_id",
+        "description": "dashboard.migrations.0012_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0011_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0012_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0013_alter_support_apartment_id",
+        "description": "dashboard.migrations.0013_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0012_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0013_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0014_alter_support_apartment_id",
+        "description": "dashboard.migrations.0014_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0013_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0014_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0015_alter_support_apartment_id",
+        "description": "dashboard.migrations.0015_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0014_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0015_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "add_commas",
+        "kind": 2,
+        "importPath": "dashboard.templatetags.custom_filters",
+        "description": "dashboard.templatetags.custom_filters",
+        "peekOfCode": "def add_commas(value):\n    if value is not None:\n        try:\n            value = int(value)\n            return \"{:,}\".format(value)\n        except (TypeError, ValueError):\n            pass\n    return value",
+        "detail": "dashboard.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "dashboard.templatetags.custom_filters",
+        "description": "dashboard.templatetags.custom_filters",
+        "peekOfCode": "register = template.Library()\n@register.filter\ndef add_commas(value):\n    if value is not None:\n        try:\n            value = int(value)\n            return \"{:,}\".format(value)\n        except (TypeError, ValueError):\n            pass\n    return value",
+        "detail": "dashboard.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
         "label": "BookAdmin",
         "kind": 6,
         "importPath": "dashboard.admin",
@@ -1611,11 +2076,29 @@
         "documentation": {}
     },
     {
+        "label": "calculate_similarity",
+        "kind": 2,
+        "importPath": "dashboard.recommendation",
+        "description": "dashboard.recommendation",
+        "peekOfCode": "def calculate_similarity(apartment1, apartment2):\n    # Calculate similarity score based on attribute values\n    similarity_score = 0\n    if apartment1['location'] == apartment2['location']:\n        similarity_score += 1\n    if apartment1['floor'] == apartment2['floor']:\n        similarity_score += 1\n    if apartment1['bhk'] == apartment2['bhk']:\n        similarity_score += 1\n    if apartment1['parking'] == apartment2['parking']:",
+        "detail": "dashboard.recommendation",
+        "documentation": {}
+    },
+    {
+        "label": "get_recommended_apartments",
+        "kind": 2,
+        "importPath": "dashboard.recommendation",
+        "description": "dashboard.recommendation",
+        "peekOfCode": "def get_recommended_apartments(viewed_apartment, all_apartments):\n    similar_apartments = []\n    for apartment in all_apartments:\n        if apartment['id'] != viewed_apartment['id']:\n            similarity = calculate_similarity(viewed_apartment, apartment)\n            similar_apartments.append((apartment, similarity))\n    similar_apartments.sort(key=lambda x: x[1], reverse=True)\n    return similar_apartments",
+        "detail": "dashboard.recommendation",
+        "documentation": {}
+    },
+    {
         "label": "app_name",
         "kind": 5,
         "importPath": "dashboard.urls",
         "description": "dashboard.urls",
-        "peekOfCode": "app_name = \"dashboard\"\nurlpatterns = [\n    path('', views.index, name='dashboard-index'),\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('listing/',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),",
+        "peekOfCode": "app_name = \"dashboard\"\nurlpatterns = [\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),\n    path('rent/<int:pk>',views.removeRented, name='remove-rent'),",
         "detail": "dashboard.urls",
         "documentation": {}
     },
@@ -1624,7 +2107,7 @@
         "kind": 5,
         "importPath": "dashboard.urls",
         "description": "dashboard.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='dashboard-index'),\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('listing/',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),\n    path('rent/<int:pk>',views.removeRented, name='remove-rent'),",
+        "peekOfCode": "urlpatterns = [\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),\n    path('rent/<int:pk>',views.removeRented, name='remove-rent'),\n]",
         "detail": "dashboard.urls",
         "documentation": {}
     },
@@ -1633,7 +2116,7 @@
         "kind": 6,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "class ListingView(ListView):\n    model = Apartment\n    template_name = 'dashboard/listing.html'\n    context_object_name = \"apartment\"\n    def get_queryset(self):\n        # Get all apartments\n        queryset = super().get_queryset()\n        # Get the list of apartment IDs from the UserApartment model\n        excluded_apartment_ids = UserApartment.objects.values_list('apartment_id', flat=True)\n        # Exclude the apartments that have corresponding entries in UserApartment model",
+        "peekOfCode": "class ListingView(ListView):\n    model = Apartment\n    template_name = 'dashboard/listing.html'\n    context_object_name = \"apartment\"\n    def get_queryset(self):\n        # # Get all apartments\n        queryset = super().get_queryset()\n        # Get the list of apartment IDs from the UserApartment model\n        excluded_apartment_ids = UserApartment.objects.values_list('apartment_id', flat=True)\n#         # Filter the queryset to include only apartments not in UserApartment model",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1642,7 +2125,7 @@
         "kind": 6,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "class SupportView(CreateView):\n    form_class = SupportForm\n    template_name= 'dashboard/complaint.html'\n    success_url = reverse_lazy('dashboard:dashboard-index')\ndef removeComplaint(request,pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect('tenant:tenant-complaint-list')\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):",
+        "peekOfCode": "class SupportView(CreateView):\n    form_class = SupportForm\n    template_name= 'dashboard/complaint.html'\n    success_url = reverse_lazy('dashboard:dashboard-dashboard-listing')\ndef removeComplaint(request,pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect('tenant:tenant-complaint-list')\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1651,7 +2134,7 @@
         "kind": 6,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "class BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            apartment = get_object_or_404(Apartment, id=apartment_id)\n            user = get_object_or_404(User, username=username)\n            book = Book(username=user, apartment_id=apartment)\n            book.save()\n            return redirect(reverse('dashboard:dashboard-listing'))\ndef removeBooked(request,pk):\n    booked = get_object_or_404(Book, pk=pk)",
+        "peekOfCode": "class BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                book = Book(username=user, apartment_id=apartment)\n                book.save()\n                return redirect(reverse('user:book-success'))\n            except IntegrityError:",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1660,16 +2143,7 @@
         "kind": 6,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "class RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            apartment = get_object_or_404(Apartment, id=apartment_id)\n            user = get_object_or_404(User, username=username)\n            rent = Rent(username=user, apartment_id=apartment)\n            rent.save()\n            return redirect(reverse('dashboard:dashboard-listing'))\ndef removeRented(request,pk):\n    rented = get_object_or_404(Rent, pk=pk)",
-        "detail": "dashboard.views",
-        "documentation": {}
-    },
-    {
-        "label": "index",
-        "kind": 2,
-        "importPath": "dashboard.views",
-        "description": "dashboard.views",
-        "peekOfCode": "def index(request):\n    return render(request, 'dashboard/index.html')\n# class ListingView(ListView):\n#     model = Apartment\n#     template_name = 'dashboard/listing.html'\n#     context_object_name = \"apartment\"\nclass ListingView(ListView):\n    model = Apartment\n    template_name = 'dashboard/listing.html'\n    context_object_name = \"apartment\"",
+        "peekOfCode": "class RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                rent = Rent(username=user, apartment_id=apartment)\n                rent.save()\n                return redirect(reverse('user:rent-success'))\n            except IntegrityError:",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1678,7 +2152,7 @@
         "kind": 2,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "def apartment_details(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    return render(request, 'dashboard/apartment_details.html', {'apartment': apartment})\n# class ComplaintView(CreateView):\n#     form_class = ComplaintForm\n#     template_name= 'dashboard/complaint.html'\n#     success_url = reverse_lazy('dashboard:dashboard-index')\nclass SupportView(CreateView):\n    form_class = SupportForm\n    template_name= 'dashboard/complaint.html'",
+        "peekOfCode": "def apartment_details(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    booked_apartments = get_object_or_404(Apartment, id=apartment_id)\n    # apartment = recommend_apartments(request,apartment_id)\n    # print(apartment)\n    return render(request, 'dashboard/apartment_details.html', {'apartment': apartment,'booked_apartments':booked_apartments})\n# class ComplaintView(CreateView):\n#     form_class = ComplaintForm\n#     template_name= 'dashboard/complaint.html'\n#     success_url = reverse_lazy('dashboard:dashboard-dashboard-listing')",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1687,7 +2161,7 @@
         "kind": 2,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "def removeComplaint(request,pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect('tenant:tenant-complaint-list')\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            apartment = get_object_or_404(Apartment, id=apartment_id)\n            user = get_object_or_404(User, username=username)\n            book = Book(username=user, apartment_id=apartment)",
+        "peekOfCode": "def removeComplaint(request,pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect('tenant:tenant-complaint-list')\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1696,7 +2170,7 @@
         "kind": 2,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "def removeBooked(request,pk):\n    booked = get_object_or_404(Book, pk=pk)\n    booked.delete()\n    return redirect('tenant:tenant-book')\nclass RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            apartment = get_object_or_404(Apartment, id=apartment_id)\n            user = get_object_or_404(User, username=username)\n            rent = Rent(username=user, apartment_id=apartment)",
+        "peekOfCode": "def removeBooked(request,pk):\n    booked = get_object_or_404(Book, pk=pk)\n    booked.delete()\n    return redirect('tenant:tenant-book')\nclass RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1705,7 +2179,7 @@
         "kind": 2,
         "importPath": "dashboard.views",
         "description": "dashboard.views",
-        "peekOfCode": "def removeRented(request,pk):\n    rented = get_object_or_404(Rent, pk=pk)\n    rented.delete()\n    return redirect('tenant:tenant-rent')",
+        "peekOfCode": "def removeRented(request,pk):\n    rented = get_object_or_404(Rent, pk=pk)\n    rented.delete()\n    return redirect('tenant:tenant-rent')\n# def recommend_apartments(request, apartment_id):\n#     user = request.user\n#     apartment = get_object_or_404(Apartment ,pk=apartment_id)\n#     print(apartment)\n#     price = apartment.price\n#     print(price)",
         "detail": "dashboard.views",
         "documentation": {}
     },
@@ -1800,11 +2274,83 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0011_alter_apartment_location",
+        "description": "tenant.migrations.0011_alter_apartment_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0010_apartment_is_available'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='location',\n            field=models.CharField(choices=[('Kathmandu', 'Kathmandu'), ('Bhaktapur', 'Bhaktapur'), ('Lalitpur', 'Lalitpur'), ('Itahari', 'Itahari'), ('Butwal', 'Butwal'), ('Birtamode', 'Birtamode')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0011_alter_apartment_location",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "description": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='apartment',\n            name='is_available',\n        ),\n        migrations.AddField(",
+        "detail": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "description": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0012_remove_apartment_is_available_apartment_bhk_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='bhk',\n            field=models.CharField(choices=[('1BHK', '1BHK'), ('2BHK', '2BHK'), ('3BHK', '3BHK')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0014_apartment_ac",
+        "description": "tenant.migrations.0014_apartment_ac",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0013_alter_apartment_bhk_alter_apartment_floor'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='apartment',\n            name='ac',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "tenant.migrations.0014_apartment_ac",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0015_alter_apartment_floor",
+        "description": "tenant.migrations.0015_alter_apartment_floor",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0014_apartment_ac'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='floor',\n            field=models.CharField(choices=[('Ground', 'Ground'), ('First', 'First'), ('Second', 'Second'), ('Third', 'Third')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0015_alter_apartment_floor",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0016_userpreferences",
+        "description": "tenant.migrations.0016_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0015_alter_apartment_floor'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserPreferences',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('location', models.CharField(max_length=100)),",
+        "detail": "tenant.migrations.0016_userpreferences",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0017_delete_userpreferences",
+        "description": "tenant.migrations.0017_delete_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0016_userpreferences'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='UserPreferences',\n        ),\n    ]",
+        "detail": "tenant.migrations.0017_delete_userpreferences",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0018_userpreferences",
+        "description": "tenant.migrations.0018_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0017_delete_userpreferences'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserPreferences',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "tenant.migrations.0018_userpreferences",
+        "documentation": {}
+    },
+    {
         "label": "ApartmentAdmin",
         "kind": 6,
         "importPath": "tenant.admin",
         "description": "tenant.admin",
-        "peekOfCode": "class ApartmentAdmin(admin.ModelAdmin):\n        list_display=('apartment_id','location','price','description','image','is_available')\nadmin.site.register(Apartment,ApartmentAdmin)",
+        "peekOfCode": "class ApartmentAdmin(admin.ModelAdmin):\n        list_display=('apartment_id','location','price','description','image','bhk','floor','parking','wifi','swimming_pool','ac')\nadmin.site.register(Apartment,ApartmentAdmin)",
         "detail": "tenant.admin",
         "documentation": {}
     },
@@ -1831,7 +2377,7 @@
         "kind": 6,
         "importPath": "tenant.forms",
         "description": "tenant.forms",
-        "peekOfCode": "class ApartmentForm(forms.ModelForm):\n    class Meta:\n        model = Apartment\n        fields = ('apartment_id', 'location', 'price', 'description','image')\n        widgets = {\n            'apartment_id': forms.TextInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),\n            'location': forms.TextInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),\n            'price': forms.TextInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),\n            'description': forms.Textarea(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),\n            'image': forms.ClearableFileInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),",
+        "peekOfCode": "class ApartmentForm(forms.ModelForm):\n    parking = forms.BooleanField(required=False)\n    wifi = forms.BooleanField(required=False)\n    swimming_pool = forms.BooleanField(required=False)\n    ac =forms.BooleanField(required=False)\n    class Meta:\n        model = Apartment\n        fields = ('apartment_id','price', 'location','bhk','floor','parking','wifi','swimming_pool','ac','description','image')\n        widgets = {\n            'bhk' : forms.Select(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),           ",
         "detail": "tenant.forms",
         "documentation": {}
     },
@@ -1840,7 +2386,7 @@
         "kind": 6,
         "importPath": "tenant.forms",
         "description": "tenant.forms",
-        "peekOfCode": "class ApartmentEditForm(forms.ModelForm):\n    class Meta:\n        model = Apartment\n        fields = (\n            \"location\",\n            \"price\",\n            \"description\",\n            \"image\",\n        )\n    def __init__(self, *args, **kwargs):",
+        "peekOfCode": "class ApartmentEditForm(forms.ModelForm):\n    class Meta:\n        model = Apartment\n        fields = (\n            \"apartment_id\",\n            \"price\",\n            \"location\",\n            \"bhk\",\n            \"floor\",\n            \"parking\",",
         "detail": "tenant.forms",
         "documentation": {}
     },
@@ -1849,7 +2395,16 @@
         "kind": 6,
         "importPath": "tenant.models",
         "description": "tenant.models",
-        "peekOfCode": "class Apartment(models.Model):\n    apartment_id = models.IntegerField(null=False, unique=True)\n    location = models.CharField(max_length=100)\n    price = models.PositiveIntegerField()\n    description = models.TextField()\n    image = models.ImageField(upload_to='images', default=\"\")\n    is_available = models.BooleanField(default=True)\n    def __str__(self):\n        return str(self.apartment_id)",
+        "peekOfCode": "class Apartment(models.Model):\n    LOCATION_CHOICES = [\n        ('Kathmandu', 'Kathmandu'),\n        ('Bhaktapur', 'Bhaktapur'),\n        ('Lalitpur', 'Lalitpur'),\n        ('Itahari', 'Itahari'),\n        ('Butwal', 'Butwal'),\n        ('Birtamode', 'Birtamode'),\n    ]\n    BHK_CHOICES = [",
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPreferences",
+        "kind": 6,
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "peekOfCode": "class UserPreferences(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    location = models.CharField(max_length=100)\n    price = models.PositiveIntegerField()\n    bhk = models.CharField(max_length=100)\n    floor = models.CharField(max_length=100)\n    parking = models.BooleanField(default=False)\n    wifi = models.BooleanField(default=False)\n    swimming_pool = models.BooleanField(default=False)\n    ac = models.BooleanField(default=False)",
         "detail": "tenant.models",
         "documentation": {}
     },
@@ -2016,11 +2571,29 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0005_payment",
+        "description": "user.migrations.0005_payment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('user', '0004_delete_apartment'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Payment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "user.migrations.0005_payment",
+        "documentation": {}
+    },
+    {
         "label": "UserAdmin",
         "kind": 6,
         "importPath": "user.admin",
         "description": "user.admin",
-        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)\nclass PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
+        "detail": "user.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentAdmin",
+        "kind": 6,
+        "importPath": "user.admin",
+        "description": "user.admin",
+        "peekOfCode": "class PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
         "detail": "user.admin",
         "documentation": {}
     },
@@ -2029,7 +2602,7 @@
         "kind": 5,
         "importPath": "user.admin",
         "description": "user.admin",
-        "peekOfCode": "admin.site.site_header = 'Apartment Rental'\nclass UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)",
+        "peekOfCode": "admin.site.site_header = 'Apartment Rental'\nclass UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)\nclass PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
         "detail": "user.admin",
         "documentation": {}
     },
@@ -2083,7 +2656,16 @@
         "kind": 6,
         "importPath": "user.models",
         "description": "user.models",
-        "peekOfCode": "class User(AbstractUser):\n    phone_number = models.CharField(max_length=20, null=False, unique=True)\n    date_of_birth = models.DateField(null=True)\n    gender = models.CharField(max_length=10,null=True)",
+        "peekOfCode": "class User(AbstractUser):\n    phone_number = models.CharField(max_length=20, null=False, unique=True)\n    date_of_birth = models.DateField(null=True)\n    gender = models.CharField(max_length=10,null=True)\nclass Payment(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    amount = models.DecimalField(max_digits=10, decimal_places=2)\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):",
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "user.models",
+        "description": "user.models",
+        "peekOfCode": "class Payment(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    amount = models.DecimalField(max_digits=10, decimal_places=2)\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Payment #{self.pk}\"",
         "detail": "user.models",
         "documentation": {}
     },
@@ -2092,7 +2674,7 @@
         "kind": 5,
         "importPath": "user.urls",
         "description": "user.urls",
-        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n]",
+        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n    path('book_success/', views.book_success_view, name='book-success'),",
         "detail": "user.urls",
         "documentation": {}
     },
@@ -2101,7 +2683,7 @@
         "kind": 5,
         "importPath": "user.urls",
         "description": "user.urls",
-        "peekOfCode": "urlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n]",
+        "peekOfCode": "urlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n    path('book_success/', views.book_success_view, name='book-success'),\n    path('book_fail/', views.book_fail_view, name='book-fail'),",
         "detail": "user.urls",
         "documentation": {}
     },
@@ -2128,7 +2710,7 @@
         "kind": 6,
         "importPath": "user.views",
         "description": "user.views",
-        "peekOfCode": "class MyLogoutView(LogoutView):\n    next_page = reverse_lazy(\"user:user-login\")\ndef ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    context = {\n        'user': request.user,\n        'apartment': user_apartment.apartment_id if user_apartment else None,",
+        "peekOfCode": "class MyLogoutView(LogoutView):\n    next_page = reverse_lazy(\"user:user-login\")\ndef ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    try:\n        book = Book.objects.get(username=request.user)\n    except Book.DoesNotExist:",
         "detail": "user.views",
         "documentation": {}
     },
@@ -2142,11 +2724,20 @@
         "documentation": {}
     },
     {
+        "label": "GeneratePaymentReceiptPDF",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class GeneratePaymentReceiptPDF(View):\n    def get(self, request):\n        # Retrieve the payment details from the database\n        user = request.user\n        payment = Payment.objects.filter(user=user).latest('timestamp')\n        # Generate the PDF using ReportLab\n        response = HttpResponse(content_type='application/pdf')\n        response['Content-Disposition'] = 'attachment; filename=\"payment_receipt.pdf\"'\n        p = canvas.Canvas(response)\n        # Customize the receipt layout",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
         "label": "ProfileView",
         "kind": 2,
         "importPath": "user.views",
         "description": "user.views",
-        "peekOfCode": "def ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    context = {\n        'user': request.user,\n        'apartment': user_apartment.apartment_id if user_apartment else None,\n    }\n    return render(request, 'user/profile.html', context)",
+        "peekOfCode": "def ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    try:\n        book = Book.objects.get(username=request.user)\n    except Book.DoesNotExist:\n        book = None\n    try:",
         "detail": "user.views",
         "documentation": {}
     },
@@ -2155,7 +2746,88 @@
         "kind": 2,
         "importPath": "user.views",
         "description": "user.views",
-        "peekOfCode": "def user_apartment_detail(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    return render(request, 'user/user_apartment_detail.html', {'apartment': apartment})",
+        "peekOfCode": "def user_apartment_detail(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    return render(request, 'user/user_apartment_detail.html', {'apartment': apartment})\ndef book_success_view(request):\n    return render(request, 'action/book_success.html')\ndef book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "book_success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def book_success_view(request):\n    return render(request, 'action/book_success.html')\ndef book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "book_fail_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "rent_success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "rent_fail_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id\n    session = stripe.checkout.Session.create(\n        payment_method_types=['card'],",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_checkout_session",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id\n    session = stripe.checkout.Session.create(\n        payment_method_types=['card'],\n        line_items=[\n            {",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def success_view(request):\n    user = request.user\n    apartment_id = request.session.get('apartment_id')\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Save the payment\n    payment = Payment(user=user, apartment=apartment, amount=apartment.price, timestamp=datetime.now())\n    payment.save()\n    # Clear the apartment_id from the session\n    del request.session['apartment_id']\n    return render(request, 'user/success.html')",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def cancel_view(request):\n    return render(request, 'user/cancel.html')\ndef payment_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'tenant/payment.html', {'payments': payments})\ndef payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def payment_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'tenant/payment.html', {'payments': payments})\ndef payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,\n        'payments': payments\n    }",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_record_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,\n        'payments': payments\n    }\n    return render(request, 'user/payment_records.html',context)\nclass GeneratePaymentReceiptPDF(View):\n    def get(self, request):",
         "detail": "user.views",
         "documentation": {}
     },

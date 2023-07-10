@@ -5,12 +5,12 @@ from . import views
 app_name = "dashboard"
 
 urlpatterns = [
-    path('', views.index, name='dashboard-index'),
     
     path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),
     path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),
     
-    path('listing/',views.ListingView.as_view(), name='dashboard-listing'),
+    path('',views.ListingView.as_view(), name='dashboard-listing'),
+
     
     path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),
     
