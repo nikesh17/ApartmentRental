@@ -5,12 +5,9 @@ from django.conf import settings
 class Apartment(models.Model):
     
     LOCATION_CHOICES = [
-        ('Kathmandu', 'Kathmandu'),
-        ('Bhaktapur', 'Bhaktapur'),
-        ('Lalitpur', 'Lalitpur'),
-        ('Itahari', 'Itahari'),
-        ('Butwal', 'Butwal'),
-        ('Birtamode', 'Birtamode'),
+        ('Gaushala', 'Gaushala'),
+        ('Baneshwor', 'Baneshwor'),
+        ('Maharajgunj', 'Maharajgunj'),
     ]
     BHK_CHOICES = [
         ('1BHK','1BHK'),

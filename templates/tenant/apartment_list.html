@@ -15,37 +15,42 @@
             <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
                     <tr>
-                        <th scope="col" class="px-2 py-2">
+                        <th scope="col" class="px-2 py-4 sortable" onclick="sortTable(0)">
                             Apartment
+                            <span id="arrow-0" class="ml-1">&#8597;</span>
                         </th>
-                        <th scope="col" class="px-2 py-2">
+                        <th scope="col" class="px-2 py-4 sortable" onclick="sortTable(1)">
                             Price
+                            <span id="arrow-1" class="ml-1">&#8597;</span>
                         </th>
-                        <th scope="col" class="px-6 py-2">
+                        <th scope="col" class="px-6 py-4 sortable" onclick="sortTable(2)">
                             Location
+                            <span id="arrow-2" class="ml-1">&#8597;</span>
                         </th>
-                        <th scope="col" class="px-6 py-2">
+                        <th scope="col" class="px-6 py-4 sortable" onclick="sortTable(3)">
                             BHK
+                            <span id="arrow-3" class="ml-1">&#8597;</span>
                         </th>
-                        <th scope="col" class="px-6 py-2">
+                        <th scope="col" class="px-6 py-4 sortable" onclick="sortTable(4)">
                             Floor
+                            <span id="arrow-4" class="ml-1">&#8597;</span>
                         </th>
-                        <th scope="col" class="px-1 py-2">
+                        <th scope="col" class="px-1 py-4">
                             <img src="{% static 'images/parking.jpg' %}" alt="Logo" class="h-4 w-4 mx-auto">
                         </th>
-                        <th scope="col" class="px-1 py-2">
+                        <th scope="col" class="px-1 py-4">
                             <img src="{% static 'images/wifi.png' %}" alt="Logo" class="h-4 w-4 mx-auto">
                         </th>
-                        <th scope="col" class="px-1 py-2">
+                        <th scope="col" class="px-1 py-4">
                             <img src="{% static 'images/pool.png' %}" alt="Logo" class="h-4 w-4 mx-auto">
                         </th>
-                        <th scope="col" class="px-1 py-2">
+                        <th scope="col" class="px-1 py-4">
                             <img src="{% static 'images/ac.png' %}" alt="Logo" class="h-4 w-4 mx-auto">
                         </th>
-                        <th scope="col" class="px-6 py-2">
+                        <th scope="col" class="px-6 py-4">
                             Description
                         </th>
-                        <th scope="col" class="px-1 py-2">
+                        <th scope="col" class="px-1 py-4">
                             Action
                         </th>
                     </tr>
@@ -123,5 +128,39 @@
     </div>
 </section>
 
+<script>
+    function sortTable(columnIndex) {
+        const table = document.querySelector("table");
+        const rows = Array.from(table.rows).slice(1); // Exclude the header row
+    
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].textContent.trim();
+            const cellB = rowB.cells[columnIndex].textContent.trim();
+    
+            return cellA.localeCompare(cellB, undefined, { numeric: true, sensitivity: 'base' });
+        });
+    
+        // Reverse the array for descending order
+        if (table.dataset.sorted === "asc") {
+            rows.reverse();
+            table.dataset.sorted = "desc";
+        } else {
+            table.dataset.sorted = "asc";
+        }
+    
+        // Reinsert the sorted rows into the table
+        rows.forEach(row => table.appendChild(row));
+    }
+</script>
+
+<style>
+    .sortable {
+        cursor: pointer;
+        user-select: none;
+    }
+</style>   
+    
+    
+    
 
 {% endblock %}

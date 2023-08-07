@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-import django.views.generic
+from django.http import HttpResponseForbidden
 from django.urls import reverse_lazy
 from tenant.models import Apartment
 from . forms import ApartmentForm, ApartmentEditForm
@@ -10,8 +10,23 @@ from dashboard.models import Support
 from django.views.generic import ListView,CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import UpdateView
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 # Create your views here.
 
+
+
+
+def admin_only(view_func):
+    def wrapped_view(request, *args, **kwargs):
+        if request.user.is_authenticated and request.user.is_admin:
+            return view_func(request, *args, **kwargs)
+        else:
+            return HttpResponseForbidden("You don't have permission to access this page.")
+    return wrapped_view
+
+@login_required 
+@admin_only
 def tenantView(request):
     return render(request, 'tenant/tenant.html')
 

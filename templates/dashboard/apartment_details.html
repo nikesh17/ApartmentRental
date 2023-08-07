@@ -68,7 +68,51 @@
     </div>
 </section>
 <h1>Recommended Apartments</h1>
-{% for apartment in recommendated_apartment %}
-    {{apartment.name}}
-{% endfor %}
+{% if recommended_apartments %}
+
+  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    {% for recommended_apartment in recommended_apartments %}
+    
+    <div class="bg-white rounded-lg shadow-lg p-4">
+      <a href="{% url 'dashboard:apartment-details' apartment_id=recommended_apartment.id %}">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">APARTMENT {{ recommended_apartment.apartment_id }}</h3>
+      <img src="{{ recommended_apartment.image.url }}" alt="Apartment Image" class="w-full h-40 object-cover mb-4">
+     
+    </a>
+      <p class="text-lg font-semibold">Rs. {{ recommended_apartment.price|add_commas }}</p>
+
+      <p class="text-gray-600 mt-2 font-semibold">Location: {{ recommended_apartment.location }}</p>
+      <p class="text-gray-600 mb-2 font-semibold">{{ recommended_apartment.bhk }}, {{ recommended_apartment.floor }} Floor</p>
+      <p class="text-gray-600 mb-2" >{{ recommended_apartment.description }}</p>
+      <div class="flex items-center">
+        <div class="mr-2">
+        {% if recommended_apartment.parking %}
+        <img src="{% static 'images/parking.jpg' %}" alt="Logo" class="h-8 w-8 mx-auto">
+        {% endif %}
+        </div>
+        <div class="mr-2">
+        {% if recommended_apartment.wifi %}
+        <img src="{% static 'images/wifi.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+        {% endif %}
+        </div>
+        <div class="mr-2">
+        {% if recommended_apartment.swimming_pool %}
+        <img src="{% static 'images/pool.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+        {% endif %}
+        </div>
+        <div class="mr-2">
+        {% if recommended_apartment.ac %}
+        <img src="{% static 'images/ac.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+        {% endif %}
+        </div>
+      </div>
+      
+    </div>
+ 
+    {% endfor %}
+  </div>
+
+{% else %}
+  <p class="text-gray-600">No recommended apartments available.</p>
+{% endif %}
 {% endblock %}

@@ -18,8 +18,12 @@ from tenant.models import Apartment
 class User(AbstractUser):
     phone_number = models.CharField(max_length=20, null=False, unique=True)
     date_of_birth = models.DateField(null=True)
-    gender = models.CharField(max_length=10,null=True)
-    
+    gender = models.CharField(max_length=10,null=True) 
+    first_name = models.CharField(max_length=20,null=False)
+    last_name = models.CharField(max_length=20, null= False)
+    email = models.EmailField(max_length=30, null=False)
+    is_admin = models.BooleanField(default=False)
+    is_user = models.BooleanField(default=True)
 
 
 class Payment(models.Model):

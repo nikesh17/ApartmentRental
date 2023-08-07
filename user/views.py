@@ -47,10 +47,33 @@ class RegisterView(CreateView):
     form_class = UserForm
     success_url = reverse_lazy('user:user-login')
     
+# class MyLoginView(LoginView):
+#     form_class = LoginForm
+#     template_name = 'user/login.html'
+
 class MyLoginView(LoginView):
+    template_name = "user/login.html"
     form_class = LoginForm
-    template_name = 'user/login.html'
-    
+    def form_valid(self, form):
+        # Log the user in using Django's built-in authentication
+        response = super().form_valid(form)
+
+        # Redirect the user based on their role (admin or user)
+        user = self.request.user
+        if user.is_superuser:
+            return redirect('tenant:tenant-home')
+        
+        elif user.is_user:
+            return redirect('dashboard:dashboard-listing')
+            
+        else:
+            return redirect('dashboard:dashboard-listing')
+
+        return response
+
+    def get_success_url(self):
+        # Override this method to prevent any further redirection by the LoginView
+        return self.request.path
 class MyLogoutView(LogoutView):
     next_page = reverse_lazy("user:user-login")
     
@@ -123,6 +146,7 @@ def create_checkout_session(request, apartment_id):
     user = request.user
     apartment = Apartment.objects.get(id=apartment_id)
 
+
     # Set the apartment_id in the session
     request.session['apartment_id'] = apartment_id
 
@@ -183,11 +207,21 @@ def payment_record_view(request):
 
 
 class GeneratePaymentReceiptPDF(View):
-    def get(self, request):
+    def get(self, request, payment_id):
         # Retrieve the payment details from the database
+        user = request.user
+        try:
+            payment = Payment.objects.filter(user=user, id=payment_id).latest('timestamp')
+        except Payment.DoesNotExist:
+            # Handle the case when the payment with the given payment_id does not exist
+            return HttpResponse("Payment not found", status=404)
+
         user = request.user
         payment = Payment.objects.filter(user=user).latest('timestamp')
 
+        #format amount
+        formatted_amount = "{:,}".format(int(payment.amount))
+        
         # Generate the PDF using ReportLab
         response = HttpResponse(content_type='application/pdf')
         response['Content-Disposition'] = 'attachment; filename="payment_receipt.pdf"'
@@ -199,11 +233,12 @@ class GeneratePaymentReceiptPDF(View):
         
         p.drawString(250, 750, "Payment Receipt")
         p.drawString(100, 700, f"User: {user.username}")
-        p.drawString(100, 650, f"Aparment: {payment.apartment_id}")
-        p.drawString(100, 600, f"Amount: {payment.amount}")
+        p.drawString(100, 650, f"Aparment: {payment.apartment.apartment_id}")
+        p.drawString(100, 600, f"Amount: Rs. {formatted_amount}")
         p.drawString(100, 550, f"Timestamp: {payment.timestamp}")
 
         p.showPage()
         p.save()
 
         return response
+

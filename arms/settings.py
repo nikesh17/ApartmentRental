@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dashboard.apps.DashboardConfig',
+    'django_extensions',
     'user',
     'tenant',
     'tailwind',
@@ -136,11 +137,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL ='user.User'
 
+AUTHENTICATION_BACKENDS = [
+    'user.custom_auth_backends.CustomUserTypeBackend', #custom backend
+    'django.contrib.auth.backends.ModelBackend',  # Default Django authentication backend
+]
+
+
 LOGIN_REDIRECT_URL ='/'
 
-LOGIN_URL = 'user-login'
+LOGIN_URL = 'user:user-login'
 
-LOGOUT_URL = "user-logout"
+LOGOUT_URL = "user:user-logout"
 TAILWIND_APP_NAME = 'theme'
 
 MEDIA_URL ="mediafiles/"

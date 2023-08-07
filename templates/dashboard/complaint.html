@@ -36,7 +36,7 @@ Form
                     {% if form.name.errors %}
                       <ul class="errorlist">
                           {% for error in form.name.errors %}
-                              <li>{{ error }}</li>
+                              <li class="text-red-500 text-sm mt-1">{{ error }}</li>
                           {% endfor %}
                       </ul>
                     {% endif %}
@@ -54,7 +54,7 @@ Form
                     {% if form.email.errors %}
                       <ul class="errorlist">
                           {% for error in form.email.errors %}
-                              <li>{{ error }}</li>
+                              <li class="text-red-500 text-sm mt-1">{{ error }}</li>
                           {% endfor %}
                       </ul>
                     {% endif %}
@@ -74,7 +74,7 @@ Form
                 {% if form.phone_number.errors %}
                   <ul class="errorlist">
                       {% for error in form.phone_number.errors %}
-                        <li>{{ error }}</li>
+                        <li class="text-red-500 text-sm mt-1">{{ error }}</li>
                       {% endfor %}
                   </ul>
                 {% endif %}
@@ -91,7 +91,7 @@ Form
                 {% if form.apartment_id.errors %}
                   <ul class="errorlist">
                       {% for error in form.apartment_id.errors %}
-                        <li>{{ error }}</li>
+                        <li class="text-red-500 text-sm mt-1">{{ error }}</li>
                       {% endfor %}
                   </ul>
                 {% endif %}
